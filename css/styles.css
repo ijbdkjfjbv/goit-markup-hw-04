@@ -269,6 +269,17 @@ flex-basis: calc((100% - 72px) / 4);
     height: 40px;
     fill: var(--IRIS, #4D5AE5);
 }
+.ellipse-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* Задает форму эллипса (круга) */
+    background-color: #4D5AE5;
+    /* Цвет эллипса, замените на свой */
+    margin: 5px;
+    /* Расстояние между эллипсами, по желанию */
+    display: inline-block;
+}
 .ingredients-list-one{
     display: flex;
     gap: 24px
