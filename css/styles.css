@@ -39,6 +39,10 @@ img {
 .page-header {
     border-bottom: 1px solid #e7e9fc
 }
+.container-icon {
+    width: 232px;
+
+}
 .page-header-container {
     display: flex;
     width: 1158px;
@@ -98,6 +102,7 @@ body {
 }
 
 .page-text {
+    position: relative;
     display: block;
     color: var(--NAVY-BLUE, #2E2F42);
     /* Body Medium */
@@ -117,6 +122,9 @@ body {
     color: #404bbf;
 }
 .page-text-aft::after {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
     display: block;
     width: 48px;
     height: 4px;
@@ -125,6 +133,9 @@ body {
     margin-right: auto;
     background: var(--OCEAN, #404BBF);
     content: '';
+}
+.page-text-aft {
+    color: #404bbf;
 }
 .page-address {
     font-style: normal;
@@ -163,8 +174,10 @@ body {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.70),
      rgba(46, 47, 66, 0.70)),
-    url('../images/hero/people-office\ 1.png');
+    url("");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main-title {
